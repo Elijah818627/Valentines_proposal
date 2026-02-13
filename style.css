@@ -59,9 +59,6 @@ span {
         opacity: 1;
     }
 }
-figure {
-  text-align: center;
-}
 
 span::before {
     content: '';
@@ -82,3 +79,4 @@ span::before {
     }
 
 }
+

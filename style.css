@@ -59,6 +59,9 @@ span {
         opacity: 1;
     }
 }
+figure {
+  text-align: center;
+}
 
 span::before {
     content: '';
@@ -77,4 +80,5 @@ span::before {
     100% {
         transform: translate(300px) rotate(360deg);
     }
+
 }

@@ -47,9 +47,9 @@ function displayCat() {
     // Create a new Image element for the cat
     var catImage = new Image();
     // Set the source (file path) for the cat image
-    catImage.src = 'lomll'; // Assuming the cat image is named "cat.gif"
+    catImage.src = 'lomll.jpg'; // Assuming the cat image is named "cat.gif"
     // Set alternative text for the image (for accessibility)
-    catImage.alt = 'lomll';
+    catImage.alt = 'lomll.jpg';
     // When the cat image is fully loaded, add it to the image container
     catImage.onload = function() {
         imageContainer.appendChild(catImage);
@@ -65,7 +65,7 @@ function displayCatHeart() {
     // Create a new Image element for the cat-heart
     var catHeartImage = new Image();
     // Set the source (file path) for the cat-heart image
-    catHeartImage.src = 'loml'; // Assuming the cat-heart image is named "cat-heart.gif"
+    catHeartImage.src = 'loml.gif'; // Assuming the cat-heart image is named "cat-heart.gif"
     // Set alternative text for the image (for accessibility)
     catHeartImage.alt = 'Cat Heart';
     // When the cat-heart image is fully loaded, add it to the image container
@@ -78,4 +78,5 @@ function displayCatHeart() {
 
 // Display the cat.gif initially
 displayCat();
+
 
